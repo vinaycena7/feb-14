@@ -1,0 +1,9 @@
+n=int(input("enter the number:"))
+count=0
+while (n>0):
+   count=count+1
+   n=n//10
+print(" total number of the given number are: ",count)
+output:
+enter the number:675
+ total number of the given number are:  3
